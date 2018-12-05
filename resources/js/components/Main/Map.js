@@ -4,7 +4,7 @@ import { connect } from 'react-redux'
 import { toggleMoreInfo } from '../../actions/mainAction'
 import Loader from '../Loader'
 
-const GOOGLE_MAPS_API_KEY = "AIzaSyA-c9U296XcJk42WgQW3R2akfIg4LcQz_E"
+const GOOGLE_MAPS_API_KEY = process.env.REACT_APP_GOOGLE_MAPS_API_KEY
 
 const style = {
     width: '100%',
